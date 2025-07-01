@@ -7,11 +7,17 @@
 ## Git Structure Build
 ### Creating New Folder
 ```
-mkdir (FOLDER NAME)
-touch (FOLDER NAME)/.gitkeep
-git add (FOLDER NAME)
-git commit -m "Add (FOLDER NAME) folder"
+mkdir (FOLDER NM)
+touch (FOLDER NM)/.gitkeep
+git add (FOLDER NM)
+git commit -m "Add (FOLDER NM) folder"
 git push origin main
 ```
 
-###
+### Uploading File
+- move target file onto local directory
+```
+git add data/(FILE NM).(EXTENSION NM)
+git commit -m "Add notebook to data folder"
+git push origin main
+```
