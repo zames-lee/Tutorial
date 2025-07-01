@@ -18,6 +18,6 @@ git push origin main
 - move target file onto local directory
 ```
 git add data/(FILE NM).(EXTENSION NM)
-git commit -m "Add notebook to data folder"
+git commit -m "Add (FILE NM) to data folder"
 git push origin main
 ```
